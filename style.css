@@ -1,0 +1,177 @@
+body{
+	background: url('img/plain-bg.jpg') no-repeat center center fixed;
+	padding-top: 70px;
+	font-size: 15px;
+}
+.form-control:focus{
+	border-color: #1abc9c;
+}
+.core-color{
+	color: #1abc9c !important;
+}
+a.transparent-button{
+	font-size: 15px;
+	vertical-align: middle;
+	color: #ddd;
+	padding: 1.5% 2.5%;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	text-decoration: none;
+}
+	a.transparent-button:hover{
+		color: #fff;
+		border: 1px solid #fff;
+	}
+
+/* Navbar */
+.karuvi-navbar{
+	/*background: rgba(9,9,9,0.7);*/
+	background: rgb(9,9,9);
+	border: 0;
+}
+	.dropdown-menu{
+		/*background: rgba(9,9,9,0.7);*/
+		background: rgb(9,9,9);
+		border: 0;
+	}
+		.dropdown-menu li>a{
+			color: #1abc9c;
+		}
+			.dropdown-menu li>a:hover{
+				color: #fff;
+				/*background: rgba(9,9,9,0.7);*/
+				background: rgb(9,9,9);
+			}
+.karuvi-navbar .navbar-brand,
+.karuvi-navbar .navbar-nav>li>a{
+	color: #1abc9c;
+}
+	.karuvi-navbar .navbar-brand:hover,
+	.karuvi-navbar .navbar-nav>li>a:hover{
+		color: #fff;
+	}
+
+/* Dashboard */
+.transparent-box{
+	background: rgba(20,30,40,0.7);
+	padding: 2% 4%;
+	margin-top: 20px;
+}
+	.transparent-box *{
+		color: #eee;
+	}
+	.transparent-box hr{
+		height: 0;
+		border-top: 1px solid #999;
+	}
+	.transparent-box .btn{
+		border: 0;
+		color: #000;
+	}
+
+/* Make a Tweet*/	
+	.transparent-box .profile-pic{
+		display: inline-block;
+		float: left;
+		margin-top: 4%;
+	}
+	.transparent-box .profile-pic img{
+		max-width: 75px;
+		border-radius: 50%;
+	}
+	.transparent-box .profile-names{
+		float: left;
+		margin-left: 5%;
+		margin-top: 4%;
+	}
+		.transparent-box .profile-names .display-name{
+			font-size: 25px;
+			color: #1abc9c;
+		}
+		.transparent-box .profile-names .twitter-name{
+			font-size: 15px;
+			color: #999;
+			font-style: italic;
+		}
+	.transparent-box #tweetText{
+		max-width: 100%;
+		min-height: 100px;
+		max-height: 100px;
+		background: rgba(9,9,9,0.5);
+	}
+	.transparent-box .add-to-queue{
+		background: #1abc9c;
+	}
+	.transparent-box .action-block{
+		text-align: right;
+	}
+
+/* Queue tweets and hashtag tweets */
+.transparent-box h3 span{
+	width: 20%;
+	text-align: right;
+}
+	.transparent-box ul.queue-tweets{
+		margin-left: 0;
+		padding-left: 0;
+	}
+		.transparent-box ul.queue-tweets .queue-tweet a{
+			display: inline-block;
+			color: #1abc9c;
+			clear: both;
+		}
+	.transparent-box ul.queue-tweets li{
+		list-style-type: none;
+		margin-left: 0;
+		margin-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px dotted #eee;
+	}
+		/*.transparent-box ul.queue-tweets li:last-child{
+			border-bottom: 0;
+		}*/
+		.transparent-box ul.queue-tweets li:first-child{
+			margin-top: 0;
+		}
+	.transparent-box ul.queue-tweets li .tweet-time{
+		font-size: 18px;
+		color: #1abc9c;
+	}
+		.transparent-box ul.queue-tweets li .tweet-time a{
+			margin-left: 2%;
+		}
+	.transparent-box .tweet-author,
+	.transparent-box .tweet-author a{
+		text-align: right;
+		font-style: italic;
+		color: #999;
+		text-decoration: none;
+	}
+		.transparent-box .tweet-author a:hover{
+			color: #fff;
+		}
+	.transparent-box .view-all{
+		text-align: center;
+		padding: 4% 0;
+	}
+
+/* Footer */
+.footer-wrapper{
+	margin-top: 2%;
+	background: rgb(9,9,9);
+	text-align: center;	
+}
+	.social-icons{
+		padding: 1% 2% 0 2%;
+	}
+		.social-icons a{
+			color: #1abc9c;
+			font-size: 35px;
+			margin-left: 30px;
+		}
+	.footer-wrapper .copyrights{
+		color: #999;
+		font-size: 10px;
+		font-style: italic;
+		padding: 1% 2% 2% 2%;
+	}
