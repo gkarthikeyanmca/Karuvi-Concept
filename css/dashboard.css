@@ -1,0 +1,85 @@
+/* Make a Tweet*/	
+	.transparent-box .profile-pic{
+		display: inline-block;
+		float: left;
+		margin-top: 4%;
+	}
+	.transparent-box .profile-pic img{
+		max-width: 75px;
+		border-radius: 50%;
+	}
+	.transparent-box .profile-names{
+		float: left;
+		margin-left: 5%;
+		margin-top: 4%;
+	}
+		.transparent-box .profile-names .display-name{
+			font-size: 25px;
+			color: #1abc9c;
+		}
+		.transparent-box .profile-names .twitter-name{
+			font-size: 15px;
+			color: #999;
+			font-style: italic;
+		}
+	.transparent-box #tweetText{
+		max-width: 100%;
+		min-height: 100px;
+		max-height: 100px;
+		background: rgba(9,9,9,0.5);
+	}
+	.transparent-box .add-to-queue{
+		background: #1abc9c;
+	}
+	.transparent-box .action-block{
+		text-align: right;
+	}
+
+/* Queue tweets and hashtag tweets */
+.transparent-box h3 span{
+	width: 20%;
+	text-align: right;
+}
+	.transparent-box ul.queue-tweets{
+		margin-left: 0;
+		padding-left: 0;
+	}
+		.transparent-box ul.queue-tweets .queue-tweet a{
+			display: inline-block;
+			color: #1abc9c;
+			clear: both;
+		}
+	.transparent-box ul.queue-tweets li{
+		list-style-type: none;
+		margin-left: 0;
+		margin-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px dotted #eee;
+	}
+		/*.transparent-box ul.queue-tweets li:last-child{
+			border-bottom: 0;
+		}*/
+		.transparent-box ul.queue-tweets li:first-child{
+			margin-top: 0;
+		}
+	.transparent-box ul.queue-tweets li .tweet-time{
+		font-size: 18px;
+		color: #1abc9c;
+	}
+		.transparent-box ul.queue-tweets li .tweet-time a{
+			margin-left: 2%;
+		}
+	.transparent-box .tweet-author,
+	.transparent-box .tweet-author a{
+		text-align: right;
+		font-style: italic;
+		color: #999;
+		text-decoration: none;
+	}
+		.transparent-box .tweet-author a:hover{
+			color: #fff;
+		}
+	.transparent-box .view-all{
+		text-align: center;
+		padding: 4% 0;
+	}

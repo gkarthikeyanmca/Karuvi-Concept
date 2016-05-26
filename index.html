@@ -72,8 +72,9 @@
             <div class="clearfix"></div>
           
             <div class="form-group">
-              <label for="tweetText"><h3>Make a tweet</h3></label>
-              <textarea class="form-control" id="tweetText" placeholder="Write your tweet here.."></textarea>
+              <h3>Make a tweet <a href="#" class="transparent-button pull-right">Add Image</a></h3>
+              <textarea class="form-control" id="tweetText" placeholder="Write your tweet here.." onkeyup="countChar(this)"></textarea>
+              <div id="charNum"></div>
             </div>
             <div class="form-group action-block">
               <a href="javascript:void(0);" class="btn btn-default tweet-now">Tweet</a>
@@ -342,5 +343,6 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/karuvi-dashboard.js"></script>
   </body>
 </html>

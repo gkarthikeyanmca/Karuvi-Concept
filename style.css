@@ -1,5 +1,5 @@
 body{
-	background: url('img/plain-bg.jpg') no-repeat center center fixed;
+	background: url('img/background.jpg') no-repeat center center fixed;
 	padding-top: 70px;
 	font-size: 15px;
 }
@@ -9,6 +9,7 @@ body{
 .core-color{
 	color: #1abc9c !important;
 }
+
 a.transparent-button{
 	font-size: 15px;
 	vertical-align: middle;
@@ -23,7 +24,9 @@ a.transparent-button{
 		border: 1px solid #fff;
 	}
 
-/* Navbar */
+/*=======================================================
+NAVBAR
+=======================================================*/
 .karuvi-navbar{
 	/*background: rgba(9,9,9,0.7);*/
 	background: rgb(9,9,9);
@@ -51,7 +54,9 @@ a.transparent-button{
 		color: #fff;
 	}
 
-/* Dashboard */
+/*=======================================================
+TRANSPARENT BOX
+=======================================================*/
 .transparent-box{
 	background: rgba(20,30,40,0.7);
 	padding: 2% 4%;
@@ -68,6 +73,10 @@ a.transparent-button{
 		border: 0;
 		color: #000;
 	}
+
+/*=======================================================
+DASHBOARD
+=======================================================*/
 
 /* Make a Tweet*/	
 	.transparent-box .profile-pic{
@@ -95,8 +104,7 @@ a.transparent-button{
 		}
 	.transparent-box #tweetText{
 		max-width: 100%;
-		min-height: 100px;
-		max-height: 100px;
+		min-height: 130px;
 		background: rgba(9,9,9,0.5);
 	}
 	.transparent-box .add-to-queue{
@@ -155,7 +163,9 @@ a.transparent-button{
 		padding: 4% 0;
 	}
 
-/* Footer */
+/*=======================================================
+FOOTER
+=======================================================*/
 .footer-wrapper{
 	margin-top: 2%;
 	background: rgb(9,9,9);
